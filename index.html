@@ -1,0 +1,245 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+      <link rel="stylesheet" href="stylesheet.css">
+      
+    <title>Time-Table</title>
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-expand-md navbar-dark bg-custom">
+      <a class="navbar-brand" href="#">TIME-TABLE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0 search">
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </nav>
+      
+      
+    
+       <div class="row no-gutters">
+           <div class="col-lg-6">
+      <div class="tabular marginLeft" unselectable="on">
+         	
+	  <table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th scope="col" class="heading text-center borderTopLeftRadius">Theory<br>Hours</th>
+      <th scope="col" class="text-center class-hour" >08:00 <br> 08:50</th>
+      <th scope="col" class="text-center class-hour">09:00 <br> 09:50</th>
+      <th scope="col" class="text-center class-hour">10:00 <br> 10:50</th>
+      <th scope="col" class="text-center class-hour">11:00 <br> 11:50</th>
+      <th scope="col" class="text-center class-hour">12:00 <br> 12:50</th>
+      <th scope="col" class="text-center class-hour borderTopRightRadius-collapse"></th>
+      <th  class="text-center break"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="heading text-center">LAB<br>Hours</th>
+       <th scope="col" class="text-center class-hour" >8:00 <br> 8:45</th>
+      <th scope="col" class="text-center class-hour">8:45 <br> 9:30</th>
+      <th scope="col" class="text-center class-hour">10:00 <br> 10:45</th>
+      <th scope="col" class="text-center class-hour">10:45 <br> 11:30</th>
+      <th scope="col" class="text-center class-hour">11:30 <br> 12:15</th>
+      <th scope="col" class="text-center class-hour">12:15<br>01:00</th>
+      <th scope="col" class="text-center break text-center">B</th>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center">MON</th>
+        
+      <td class="text-center slots selected"><label for="A1"><input type="checkbox" name="A1" value="A1" id="A1" onclick="check()">A1/L1</label></td>
+      <td class="text-center slots selected"><label for="F1"><input type="checkbox" name="F1" value="F1" id="F1" onclick="check()">F1/L2</label></td>
+      <td class="text-center slots selected"><label for="D1"><input type="checkbox" name="D1" value="D1" id="D1" onclick="check()">D1/L3</label></td>
+      <td class="text-center slots selected"><label for="TB1"><input type="checkbox" name="TB1" value="TB1" id="TB1" onclick="check()">TB1/L4</label></td>
+      <td class="text-center slots selected"><label for="TG1"><input type="checkbox" name="TG1" value="TG1" id="TG1" onclick="check()">TG1/L5</label></td>
+      <td class="text-center slots selected"><label for="L6"><input type="checkbox" name="L6" value="L6" id="L6" onclick="check()">L6</label></td>
+        
+        <th scope="col" class="break text-center">R</th>
+        
+      
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center">TUE</th>
+        <td class="text-center slots selected"><label for="B1"><input type="checkbox" name="B1" value="B1" id="B1" onclick="check()">B1/L7</label></td>
+        <td class="text-center slots selected"><label for="G1"><input type="checkbox" name="G1" value="G1" id="G1" onclick="check()">G1/L8</label></td>
+        <td class="text-center slots selected"><label for="E1"><input type="checkbox" name="E1" value="E1" id="E1" onclick="check()">E1/L9</label></td>
+        <td class="text-center slots selected"><label for="TC1"><input type="checkbox" name="TC1" value="TC1" id="TC1" onclick="check()">TC1/L10</label></td>
+        <td class="text-center slots selected"><label for="TAA1"><input type="checkbox" name="TAA1" value="TAA1" id="TAA1" onclick="check()">TAA1/L11</label></td>
+        <td class="text-center slots selected"><label for="L12"><input type="checkbox" name="L12" value="L12" id="L12" onclick="check()">L12</label></td>
+        <th scope="col" class="break text-center">E</th>
+        
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center">WED</th>
+        <td class="text-center slots selected"><label for="C1"><input type="checkbox" name="C1" value="C1" id="C1" onclick="check()">C1/L13</label></td>
+        <td class="text-center slots selected"><label for="A1"><input type="checkbox" name="EA1" value="EA1" id="A1" onclick="check()">A1/L14</label></td>
+        <td class="text-center slots selected"><label for="F1"><input type="checkbox" name="EF1" value="EF1" id="F1" onclick="check()">F1/L15</label></td>
+        <td class="text-center slots selected"><label for="V1"><input type="checkbox" name="V1" value="V1" id="V1" onclick="check()">V1/L16</label></td>
+        <td class="text-center slots selected"><label for="V2"><input type="checkbox" name="V2" value="V2" id="V2" onclick="check()">V2</label></td>
+        <td class="xtra text-center">XTRA</td>
+        <th scope="col" class="break text-center">A</th>
+        
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center">THU</th>
+        <td class="text-center slots selected"><label for="D1"><input type="checkbox" name="D1" value="D1" id="D1" onclick="check()">D1/L19</label></td>
+        <td class="text-center slots selected"><label for="B1"><input type="checkbox" name="B1" value="B1" id="B1" onclick="check()">B1/L20</label></td>
+        <td class="text-center slots selected"><label for="G1"><input type="checkbox" name="G1" value="G1" id="G1" onclick="check()">G1/L21</label></td>
+        <td class="text-center slots selected"><label for="TE1"><input type="checkbox" name="TE1" value="TE1" id="TE1" onclick="check()">TE1/L22</label></td>
+        <td class="text-center slots selected"><label for="TCC1"><input type="checkbox" name="TCC1" value="TCC1" id="TCC1" onclick="check()">TCC1/L23</label></td>
+        <td class="text-center slots selected"><label for="L24"><input type="checkbox" name="L24" value="L24" id="L24" onclick="check()">L24</label></td>
+        <th scope="col" class="break text-center">K</th>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center borderBottomLeftRadius">FRI</th>
+        <td class="text-center slots selected"><label for="E1"><input type="checkbox" name="E1" value="E1" id="E1" onclick="check()">E1/L13</label></td>
+        <td class="text-center slots selected"><label for="C1"><input type="checkbox" name="C1" value="C1" id="C1" onclick="check()">C1/L14</label></td>
+        <td class="text-center slots selected"><label for="TA1"><input type="checkbox" name="TA1" value="TA1" id="TA1" onclick="check()">TA1/L15</label></td>
+        <td class="text-center slots selected"><label for="TF1"><input type="checkbox" name="TF1" value="TF1" id="TF1" onclick="check()">TF1/L16</label></td>
+        <td class="text-center slots selected"><label for="TD1"><input type="checkbox" name="TD1" value="TD1" id="TD1" onclick="check()">TD1</label></td>
+        <td class="text-center slots selected borderBottomRightRadius-collapse"><label for="L30"><input type="checkbox" name="L30" value="L30" id="L30" onclick="check()">L30</label></td>
+        <th scope="col" class="break text-center"></th>
+    </tr>
+      
+  </tbody>
+</table>
+          
+          </div>
+          </div>
+           <div class="col-lg-6">
+      <div class="tabular marginRight" unselectable="on">
+	  <table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th scope="col" class="heading text-center afternoon-collapsable borderTopLeftRadius-collapse">Theory<br>Hours</th>
+      
+      <th scope="col" class="text-center class-hour">02:00 <br> 02:50</th>
+      <th scope="col" class="text-center class-hour">03:00 <br> 03:50</th>
+      <th scope="col" class="text-center class-hour">04:00 <br> 04:50</th>
+      <th scope="col" class="text-center class-hour">05:00 <br> 05:50</th>
+      <th scope="col" class="text-center class-hour">06:00 <br> 06:50</th>
+      <th scope="col" class="text-center class-hour borderTopRightRadius">07:00 <br> 07:50</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable">LAB<br>Hours</th>
+       
+      <th scope="col" class="text-center class-hour">02:00 <br> 02:45</th>
+      <th scope="col" class="text-center class-hour">02:45 <br> 03:30</th>
+      <th scope="col" class="text-center class-hour">04:00 <br> 04:45</th>
+      <th scope="col" class="text-center class-hour">04:45 <br> 05:30</th>
+      <th scope="col" class="text-center class-hour">05:00 <br> 06:15</th>
+      <th scope="col" class="text-center class-hour">06:15 <br> 07:00</th>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable">MON</th>
+          
+        <td class="text-center slots selected"><label for="A2"><input type="checkbox" name="A2" value="A2" id="A2" onclick="check()">A2/L31</label></td>
+        <td class="text-center slots selected"><label for="F2"><input type="checkbox" name="F2" value="F2" id="F2" onclick="check()">F2/L32</label></td>
+        <td class="text-center slots selected"><label for="D2"><input type="checkbox" name="D2" value="D2" id="D2" onclick="check()">D2/L33</label></td>
+        <td class="text-center slots selected"><label for="TB2"><input type="checkbox" name="TB2" value="TB2" id="TB2" onclick="check()">TB2/L34</label></td>
+        <td class="text-center slots selected"><label for="TG2"><input type="checkbox" name="TG2" value="TG2" id="TG2" onclick="check()">TG2/L35</label></td>
+        <td class="text-center slots selected"><label for="V3"><input type="checkbox" name="V3" value="V3" id="V3" onclick="check()">V3/L36</label></td>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable">TUE</th>
+        
+        <td class="text-center slots selected"><label for="B2"><input type="checkbox" name="B2" value="B2" id="B2" onclick="check()">B2/L37</label></td>
+        <td class="text-center slots selected"><label for="G2"><input type="checkbox" name="G2" value="G2" id="G2" onclick="check()">G2/L38</label></td>
+        <td class="text-center slots selected"><label for="E2"><input type="checkbox" name="E2" value="E2" id="E2" onclick="check()">E2/L39</label></td>
+        <td class="text-center slots selected"><label for="TC2"><input type="checkbox" name="TC2" value="TC2" id="TC2" onclick="check()">TC2/L40</label></td>
+        <td class="text-center slots selected"><label for="TAA2"><input type="checkbox" name="TAA2" value="TAA2" id="TAA2" onclick="check()">TAA2/L41</label></td>
+        <td class="text-center slots selected"><label for="V4"><input type="checkbox" name="V4" value="V4" id="V4" onclick="check()">V4/L42</label></td>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable">WED</th>
+        
+        <td class="text-center slots selected"><label for="C2"><input type="checkbox" name="C2" value="C2" id="C2" onclick="check()">C2/L43</label></td>
+        <td class="text-center slots selected"><label for="A2"><input type="checkbox" name="A2" value="A2" id="A2" onclick="check()">A2/L44</label></td>
+        <td class="text-center slots selected"><label for="F2"><input type="checkbox" name="F2" value="F2" id="F2" onclick="check()">F2/L45</label></td>
+        <td class="text-center slots selected"><label for="TD2"><input type="checkbox" name="TD2" value="TD2" id="TD2" onclick="check()">TD2/L46</label></td>
+        <td class="text-center slots selected"><label for="TBB2"><input type="checkbox" name="TBB2" value="TBB2" id="TBB2" onclick="check()">TBB2/L47</label></td>
+        <td class="text-center slots selected"><label for="V5"><input type="checkbox" name="V5" value="V5" id="V5" onclick="check()">V5/L48</label></td>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable">THU</th>
+        
+        <td class="text-center slots selected"><label for="D2"><input type="checkbox" name="D2" value="D2" id="D2" onclick="check()">D2/L49</label></td>
+        <td class="text-center slots selected"><label for="B2"><input type="checkbox" name="B2" value="B2" id="B2" onclick="check()">B2/L50</label></td>
+        <td class="text-center slots selected"><label for="G2"><input type="checkbox" name="G2" value="G2" id="G2" onclick="check()">G2/L51</label></td>
+        <td class="text-center slots selected"><label for="TE2"><input type="checkbox" name="TE2" value="TE2" id="TE2" onclick="check()">TE2/L52</label></td>
+        <td class="text-center slots selected"><label for="TCC2"><input type="checkbox" name="TCC2" value="TCC2" id="TCC2" onclick="check()">TCC2/L53</label></td>
+        <td class="text-center slots selected"><label for="V6"><input type="checkbox" name="V6" value="V6" id="V6" onclick="check()">V6/L54</label></td>
+    </tr>
+    <tr>
+      <th scope="row" class="heading text-center afternoon-collapsable borderBottomLeftRadius-collapse">FRI</th>
+        <td class="text-center slots selected"><label for="E2"><input type="checkbox" name="E2" value="E2" id="E2" onclick="check()">E2/L55</label></td>
+        <td class="text-center slots selected"><label for="C2"><input type="checkbox" name="C2" value="C2" id="C2" onclick="check()">C2/L56</label></td>
+        <td class="text-center slots selected"><label for="TA2"><input type="checkbox" name="TA2" value="TA2" id="TA2" onclick="check()">TA2/L57</label></td>
+        <td class="text-center slots selected"><label for="TF2"><input type="checkbox" name="TF2" value="TF2" id="TF2" onclick="check()">TF2/L58</label></td>
+        <td class="text-center slots selected"><label for="TDD2"><input type="checkbox" name="TDD2" value="TDD2" id="TDD2" onclick="check()">TDD2/L59</label></td>
+        <td class="text-center slots selected borderBottomRightRadius"><label for="V7"><input type="checkbox" name="V7" value="V7" id="V7" onclick="check()">V7/L60</label></td>
+    </tr>
+      
+  </tbody>
+</table>
+          
+          </div>
+           </div>
+           </div>
+      
+<br>
+      <br>
+      
+      <button id="btn1">ADD-person</button>
+       <input type="button" class="check" id="reset" value="Reset" />
+      <br>
+      <ul id="showtest">
+      </ul>
+      <p id="p"></p>
+      
+	  
+ 
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javas.js"> </script>
+  </body>
+</html>

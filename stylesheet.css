@@ -1,0 +1,135 @@
+/*navbar styles*/
+.bg-custom{
+    background-color: cornflowerblue;
+    font-weight: 500;
+}
+
+.navbar{
+    padding:5px;
+    margin-bottom: 50px;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.search{
+
+    margin-right: 10px;
+}
+
+
+
+
+/* Table-styles */
+body{
+    background-color: #1f282d;
+    
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+.tabular{
+   user-select: none;
+}
+
+
+.heading{
+    background-color: cornflowerblue;
+    color: white;
+   
+}
+
+.borderTopLeftRadius,.borderTopLeftRadius-collapse{
+    border-top-left-radius: 15px;
+}
+
+.borderBottomLeftRadius,.borderBottomLeftRadius-collapse{
+    border-bottom-left-radius: 15px;
+}
+
+.borderTopRightRadius,.borderTopRightRadius-collapse{
+    border-top-right-radius: 15px;
+}
+
+.borderBottomRightRadius,.borderBottomRightRadius-collapse{
+    border-bottom-right-radius: 15px;
+}
+
+.marginLeft{
+    margin-left: 15px;
+}
+.marginRight{
+    margin-right: 15px;
+}
+
+.class-hour{
+    background-color: lightcoral;
+    color: white;
+}
+
+.break{
+    color: white;
+    font-size: 12px;
+    background-color: cornflowerblue;
+    
+    
+}
+
+.slots, .xtra{
+    background-color: black;
+    color: white;
+    font-family: Calibri;
+    font-weight:bold;
+}
+
+
+@media (max-width: 992px)
+{
+    .break{
+        font-size: 0px;
+    }
+    .tabular{
+   user-select: none;
+    margin: 0px;
+} 
+    .break{
+        display: none;
+    }
+    .marginLeft,.marginRight{
+        margin: 5px;
+    }
+}
+
+#p{
+    color: white;
+    padding: 20px; 
+}
+
+@media (min-width: 992px)
+{
+    .borderBottomRightRadius-collapse,.borderTopRightRadius-collapse{
+        border-radius: 0;
+    }
+       .afternoon-collapsable
+{
+    display: none;
+}
+    
+}
+
+/*testing*/
+
+#showtest,#btn1{
+    width: 120px;
+    background-color: black;
+    color: white;
+}
+
